@@ -1,12 +1,11 @@
 .firstline {
 	text-transform: capitalize;
-	font-size: 80px
+	font-size: 80px;
+	padding:0 10px
 }
 
 .right {
-    position: absolute;
-    right: 0px;
-    width: 300px;
+    text-align:right;
 }
 
 body {
