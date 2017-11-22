@@ -12,8 +12,8 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 #container {
 	/*margin: 0,0;
 	padding: 0,0; */
-	position: fixed;
-    top: 0;
+	position: absolute;
+	top: 30px;
 	left: 0;
 	right: 0;
 	height: 50 px;
@@ -25,16 +25,34 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	border-bottom-color: #4CAF50;
 }
 
+#header {
+	/*margin: 0,0;
+	padding: 0,0; */
+	position: absolute;
+    top: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	width: 100%;
+	background-color: #333;
+	font-size: 20px;
+	color: #4CAF50;
+	font-family: 'Spectral SC', serif;
+	/*border-bottom-style: solid;
+	border-bottom-width: medium;
+	border-bottom-color: #4CAF50;   optional border */
+}
+
 #navlist {
     list-style-type: none;
-    overflow: hidden;
-      
+    overflow: hidden;      
 }
 
 #listfloat {
     float: left;
 }
 
+/* No longer used as I have put the header above the navbar
 #nameright {
 	float: right;
 	margin: 0;
@@ -46,6 +64,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	position: fixed;
 	font-family: 'Spectral SC', serif;
 }
+*/
 
 #navlinks {
     display: block;
