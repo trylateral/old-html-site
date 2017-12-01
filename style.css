@@ -8,11 +8,13 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 
 */
 
+* {
+	padding: 0;
+	margin: 0;
+}
 
-#container {
-	/*margin: 0,0;
-	padding: 0,0; */
-	position: absolute;
+#navbar {
+	padding-left: 40px;
 	top: 30px;
 	left: 0;
 	right: 0;
@@ -26,9 +28,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 #header {
-	/*margin: 0,0;
-	padding: 0,0; */
-	position: absolute;
+	padding-left: 40px;
     top: 0;
 	left: 0;
 	right: 0;
@@ -75,6 +75,31 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 
+#natureimage {
+	background-image: url("Images/girl_bino.jpg");
+	background-size: cover;
+	background-position: bottom center;
+	height: 550px;
+	width: 100%;	
+}
+
+#natureimage .content h1{
+	border: 3px solid white;
+	position: relative;
+	top: 200px;
+	width: 400px;
+	margin: 0 auto;
+	color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;	
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+
+
 li a:hover:not(.active) {
     background-color: #111;
 }
@@ -89,10 +114,20 @@ li a:hover:not(.active) {
 }
 
 
+.maintext p{							/* Format for main text */
+	margin:10px auto;
+	max-width:750px;
+	padding:10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.6;
+	font-size:18px;
+	color:#444;
+}
+
 .maintext {							/* Format for main text */
 	margin:10px auto;
 	max-width:750px;
-	padding:0 10px;
+	padding:10px 10px;
 	font-family: 'Open Sans', sans-serif;
 	line-height:1.6;
 	font-size:18px;
@@ -101,7 +136,7 @@ li a:hover:not(.active) {
 
 .maintitle {
 	margin:20px auto;
-	font-size: 40px;
+	font-size: 35px;
 	max-width:750px;
 	padding:50px 10px 0;
 	font-family: 'Lato', sans-serif;
@@ -112,11 +147,15 @@ li a:hover:not(.active) {
 .titles {				/* Format for titles */
 	margin:20px auto;
 	max-width:750px;
-	padding:50px 10px 0;
+	padding:20px 10px 0;
 	font-family: 'Lato', sans-serif;
 	line-height:1.2;
 	color:#444;
+	text-decoration: none;
 }
+
+.titles h2 {
+	font-size: 30px;
 
 .bold {
 	font-weight: bold;
