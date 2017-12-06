@@ -45,7 +45,7 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 
 #navlist {
     list-style-type: none;
-    overflow: hidden;      
+    overflow: hidden;
 }
 
 #listfloat {
@@ -131,7 +131,10 @@ li a:hover:not(.active) {
 	font-family: 'Open Sans', sans-serif;
 	line-height:1.6;
 	font-size:18px;
-	color:#444;
+}
+
+.maintext h3{
+	color: #4CAF50;
 }
 
 .maintitle {
