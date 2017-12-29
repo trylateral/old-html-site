@@ -19,7 +19,6 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	left: 0;
 	right: 0;
 	height: 50 px;
-	width: 100%;
 	background-color: #333;
 	font-family: 'Open Sans', sans-serif;
 	border-bottom-style: solid;
@@ -33,7 +32,6 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	left: 0;
 	right: 0;
 	height: 30px;
-	width: 100%;
 	background-color: #333;
 	font-size: 20px;
 	color: #4CAF50;
@@ -79,16 +77,17 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	background-image: url("Images/girl_bino.jpg");
 	background-size: cover;
 	background-position: bottom center;
-	height: 550px;
-	width: 100%;	
+	height: 350px;
+	width: 100%;		
+	padding-top: 100px;
+
 }
 
 #natureimage .content h1{
 	border: 3px solid white;
-	position: relative;
-	top: 200px;
 	width: 400px;
 	margin: 0 auto;
+	padding: 20px;
 	color: white;
     font-size: 42px;
     font-weight: 600;
