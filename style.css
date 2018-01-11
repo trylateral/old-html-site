@@ -121,6 +121,7 @@ li a:hover:not(.active) {
 	line-height:1.6;
 	font-size:18px;
 	color:#444;
+	text-align: justify;
 }
 
 .maintext {							/* Format for main text */
