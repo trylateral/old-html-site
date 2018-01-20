@@ -146,6 +146,32 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: bold;
 }
 
+
+#freeimage {
+	background-image: url("Images/freemoney.png");
+	background-size: cover;
+	background-position: bottom center;
+	height: 400px;
+	margin: 0 auto;
+	width: 500px;		
+	padding-top: 0px;
+
+}
+
+#freetimage .content h1{
+	border: 3px solid white;
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;	
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+}
+
 li a:hover:not(.active) {
     background-color: #111;
 }
