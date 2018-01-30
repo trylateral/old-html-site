@@ -32,13 +32,18 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	left: 0;
 	right: 0;
 	height: 30px;
-	background-color: #333;
+	background-color: white;
 	font-size: 20px;
 	color: #4CAF50;
 	font-family: 'Spectral SC', serif;
 	/*border-bottom-style: solid;
 	border-bottom-width: medium;
 	border-bottom-color: #4CAF50;   optional border */
+}
+
+#header a{
+	text-decoration: none;
+	color: #4CAF50;
 }
 
 #navlist {
