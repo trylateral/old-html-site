@@ -13,21 +13,10 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	margin: 0;
 }
 
-#navbar {
-	padding-left: 40px;
-	top: 30px;
-	left: 0;
-	right: 0;
-	height: 50 px;
-	background-color: #333;
-	font-family: 'Open Sans', sans-serif;
-	border-bottom-style: solid;
-	border-bottom-width: medium;
-	border-bottom-color: #4CAF50;
-}
+
 
 #header {
-	padding-left: 40px;
+	padding: 40px;
     top: 0;
 	left: 0;
 	right: 0;
@@ -39,6 +28,12 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	/*border-bottom-style: solid;
 	border-bottom-width: medium;
 	border-bottom-color: #4CAF50;   optional border */
+}
+
+@media (max-width: 800px) {
+	#header {
+		padding: 40px 0px 0px 10px;
+	}
 }
 
 #header a{
@@ -151,19 +146,6 @@ font-family: 'Barlow Semi Condensed', sans-serif;
 	font-weight: bold;
 }
 
-
-#freeimage {
-	background-image: url("Images/freemoney.png");
-	background-size: cover;
-	background-position: bottom center;
-	height: 400px;
-	margin: 0 auto;
-	width: 500px;		
-	padding-top: 0px;
-
-}
-
-
 #miximage {
 	background-image: url("Images/mix.jpg");
 	background-size: cover;
@@ -218,7 +200,7 @@ li a:hover:not(.active) {
 	margin:20px auto;
 	font-size: 35px;
 	max-width:750px;
-	padding:50px 10px 0;
+	padding:25px 10px 0;
 	font-family: 'Lato', sans-serif;
 	line-height:1.2;
 	color:#444;
@@ -226,12 +208,18 @@ li a:hover:not(.active) {
 
 .titles {				/* Format for titles */
 	margin:0px auto;
+	margin-bottom: 20px;
 	max-width:750px;
 	padding:0px 10px 0;
 	font-family: 'Lato', sans-serif;
 	line-height:1.2;
 	color:#444;
 	text-decoration: none;
+}
+
+hr {
+  border: solid #ccc 0.5px;
+  margin: 40px 0px;
 }
 
 .titles h2 {
