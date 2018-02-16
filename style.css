@@ -192,9 +192,44 @@ li a:hover:not(.active) {
 	font-size:18px;
 }
 
+.text img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
 .maintext h3{
 	color: #4CAF50;
 }
+
+
+.pagetext p{							/* Format for main text */
+	margin:10px auto;
+	max-width:750px;
+	padding:10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.5;
+	font-size:17px;
+	color:#444;
+	text-align: justify;
+}
+
+.pagetext {							/* Format for main text */
+	margin:0px auto;
+	max-width:750px;
+	padding:10px 10px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.5;
+	font-size:17px;
+}
+
+.pagetext img{
+	max-width:750px;
+	width:100%;
+
+}
+
 
 .maintitle {
 	margin:20px auto;
