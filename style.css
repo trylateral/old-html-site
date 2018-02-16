@@ -204,10 +204,26 @@ li a:hover:not(.active) {
 }
 
 
-.pagetext p{							/* Format for main text */
+.pagetitle {
+	margin:20px auto;
+	font-size: 30px;
+	max-width:750px;
+	padding:18px 10px 0;
+	font-family: 'Lato', sans-serif;
+	line-height:1.2;
+	color:#444;
+}
+
+.pagetext {							/* Format for main text */
+	margin:0px auto;
+	max-width:750px;
+	padding:10px 10px;	
+}
+
+.pagetext p, ol, ul{							/* Format for main text */
 	margin:10px auto;
 	max-width:750px;
-	padding:10px 10px;
+	padding:10px 10px 0px 10px;
 	font-family: 'Open Sans', sans-serif;
 	line-height:1.5;
 	font-size:17px;
@@ -215,21 +231,57 @@ li a:hover:not(.active) {
 	text-align: justify;
 }
 
-.pagetext {							/* Format for main text */
-	margin:0px auto;
-	max-width:750px;
-	padding:10px 10px;
-	font-family: 'Open Sans', sans-serif;
-	line-height:1.5;
-	font-size:17px;
-}
-
 .pagetext img{
 	max-width:750px;
 	width:100%;
-
+	padding:10px 0px;
 }
 
+
+.pagetext h1{
+	margin:10px auto;
+	max-width:750px;
+	padding:15px 10px 0px 10px;
+	font-family: 'Lato', sans-serif;
+	line-height:1.5;
+	font-size:25px;
+	color:#444;
+	text-align: justify;
+}
+
+.pagetext h2{
+	margin:10px auto;
+	max-width:750px;
+	padding:15px 10px 0px 10px;
+	font-family: 'Lato', sans-serif;
+	line-height:1.5;
+	font-size:21px;
+	color:#444;
+	text-align: justify;
+}
+
+.pagetext h3{
+	margin:10px auto;
+	max-width:750px;
+	padding:15px 10px 0px 10px;
+	font-family: 'Lato', sans-serif;
+	line-height:1.5;
+	font-size:19px;
+	color:#444;
+	text-align: justify;
+}
+
+.pagetext blockquote{
+	margin:0px auto;
+	max-width:750px;
+	padding:0px 10px;
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.5;
+	font-size:17px;
+	text-align: justify;	
+	font-style:italic; 
+	color:gray
+}
 
 .maintitle {
 	margin:20px auto;
